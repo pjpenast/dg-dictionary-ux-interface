@@ -1,0 +1,25 @@
+{
+  "name": "data-dictionary",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/electron-starter.js",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-packager": "^8.7.0",
+    "react-scripts": "1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
+    "electron-pack": "electron-packager ."
+  }
+}

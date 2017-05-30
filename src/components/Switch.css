@@ -1,0 +1,19 @@
+.switch {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 35px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.switch span {
+    background: black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 1.5px;
+}
